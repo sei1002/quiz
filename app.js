@@ -6,3 +6,5 @@ const answers = [
   'プジョル'
 ];
 const correct = 'メッシ';
+
+document.getElementById('js-question').textContent = question

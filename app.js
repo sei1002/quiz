@@ -1,11 +1,36 @@
-const question = 'FCバルセロナで歴史上最高と呼ばれる選手は誰?';
-const answers = [
-  'クライフ',
-  'ロナウジーニョ',
-  'メッシ',
-  'プジョル'
+const quiz = [
+  {
+    question: 'FCバルセロナで歴史上最高と呼ばれる選手は誰?',
+    answers: [
+      'クライフ',
+      'ロナウジーニョ',
+      'メッシ',
+      'プジョル'
+    ],
+    correct: 'メッシ'
+  },{
+    question: 'FCバルセロナの永遠のライバルと呼ばれるマドリードがホームのチームはどれ?',
+    answers: [
+      'エスパニョール',
+      'レアル・マドリード',
+      'アトレティコ・マドリード',
+      'レアル・ソシエダ'
+    ],
+    correct: 'レアル・マドリード'
+  },{
+    question: 'FCバルセロナのサッカー哲学を植え付けた人物といえば誰?',
+    answers: [
+      'クライフ',
+      'マラドーナ',
+      'メッシ',
+      'ライカールト'
+    ],
+    correct: 'クライフ'
+  }
 ];
-const correct = 'メッシ';
+
+
+
 
 const $button = document.getElementsByTagName('button');
 const buttonLength = $button.length

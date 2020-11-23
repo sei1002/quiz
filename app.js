@@ -28,9 +28,8 @@ const quiz = [
     correct: 'クライフ'
   }
 ];
-
-
-
+const quizLength = quiz.length;
+let quizIndex = 0;
 
 const $button = document.getElementsByTagName('button');
 const buttonLength = $button.length

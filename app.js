@@ -34,7 +34,7 @@ const quiz = [
       'アンフィールド',
       'カンプ・ノウ'
     ],
-    correct: 'カンプノウ'
+    correct: 'カンプ・ノウ'
   },{
     question: 'FCバルセロナの暗黒期を救ったと言われる選手は誰?',
     answers: [
@@ -44,7 +44,7 @@ const quiz = [
       'ロナウド'
     ],
     correct: 'ロナウジーニョ'
-  }
+  },
 ];
 const quizLength = quiz.length;
 let quizIndex = 0;

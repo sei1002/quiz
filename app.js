@@ -79,7 +79,7 @@ const clickHandler = (e) =>{
      setupQuiz();
   } else {
      //問題数がなければこちらの実行
-     window.alert('終了！あなたの正解数は '+ score + '/' + quizLength + 'です！');
+     window.alert('終了！あなたの正解数は '+ score + '/' + quizLength + 'です！お疲れ様でした！');
   }
 }
 

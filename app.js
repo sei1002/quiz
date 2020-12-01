@@ -44,7 +44,25 @@ const quiz = [
       'ロナウド'
     ],
     correct: 'ロナウジーニョ'
-  },
+  },{
+    question: 'メッシの親友は誰?',
+    answers: [
+      'スアレス',
+      'ロナウジーニョ',
+      'イニエスタ',
+      'シャビ'
+    ],
+    correct: 'スアレス'
+  },{
+    question: 'FCバルセロナの下部組織の名前は?',
+    answers: [
+      'ラ・マシア',
+      'ラ・レアル',
+      'ラ・カタルーニャ',
+      'ラ・ロハ'
+    ],
+    correct: 'ラ・マシア'
+  }
 ];
 const quizLength = quiz.length;
 let quizIndex = 0;

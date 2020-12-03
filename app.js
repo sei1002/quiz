@@ -62,6 +62,15 @@ const quiz = [
       'ラ・ロハ'
     ],
     correct: 'ラ・マシア'
+  },{
+    question: 'FCバルセロナの現在の監督は誰?',
+    answers: [
+      'クライフ',
+      'クーマン',
+      'グアルディオラ',
+      'シャビ'
+    ],
+    correct: 'クーマン'
   }
 ];
 const quizLength = quiz.length;
